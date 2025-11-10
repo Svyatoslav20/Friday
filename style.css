@@ -18,7 +18,6 @@ body {
     background-color: #F5F5F5;
 }
 h1, h2 {
-    width: 297px;
     font-weight: normal;
     color: #363062;
     padding: 10px auto;
@@ -26,6 +25,7 @@ h1, h2 {
 h1 {
     font-size: 24px;
     font-weight: bold;
+    width: 297px;
 }
 img {
     width: 298px;
@@ -35,6 +35,8 @@ h2 {
     font-size: 14px;
     text-align: left;
     padding-left: 30px ;
+    max-height: 90px;
+    padding-right: 30px;
 }
 
 /* Напиши свой CSS-код тут */
